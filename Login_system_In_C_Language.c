@@ -9,10 +9,10 @@ int main()
 
 {
 
-    int pass1=1234,i,pass2;
+    int pass1=8880,i,pass2;
 
 
-    for(i=1; i<=5; i++)
+    for(i=1; i<=10; i++)
     {
         printf("\n\nPlease Enter Password: ");
         scanf("%d",&pass2);
@@ -28,9 +28,9 @@ int main()
         else
         {
             
-            if((5-i)==0)printf("\n\nIncorrect Password! No attempts left");
+            if((10-i)==0)printf("\n\nIncorrect Password! No attempts left");
             else
-            printf("\n\nIncorrect Password! %d attempts left",5-i);
+            printf("\n\nIncorrect Password! %d attempts left",10-i);
 
         }
 
